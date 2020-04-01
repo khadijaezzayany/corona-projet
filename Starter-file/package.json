@@ -4,7 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "node-sass -w sass -o css",
+    "compile": "node-sass sass -o css",
+    "concat": "concat -o css/concat.css css/topBarMenu.css css/main.css css/sectionSymp.css css/sectionRec.css css/footer.css",
+    "prefix": "postcss css/concat.css --use=autoprefixer --map=false --output=css/style.prefix.css",
+    "compress": "node-sass css/style.prefix.css css/main.css --output-style compressed",
+    "comp-js": "uglifyjs js/main.min.js -o js/main.js",
+    "build-css": "npm-run-all watch compile prefix compress"
   },
   "author": "",
   "license": "ISC",
