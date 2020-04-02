@@ -6,13 +6,13 @@
   "scripts": {
     "watch": "node-sass -w sass -o css",
     "compile": "node-sass sass -o css",
-    "concat": "concat -o css/concat.css css/topBarMenu.css css/main.css css/sectionSymp.css css/sectionRec.css css/footer.css",
+    "concat": "concat -o css/concat.css css/style.css css/navbar.css css/header.css css/symptomes.css css/Recommandations.css css/herofooter.css css/footer.css",
     "prefix": "postcss css/concat.css --use=autoprefixer --map=false --output=css/style.prefix.css",
-    "compress": "node-sass css/style.prefix.css css/main.css --output-style compressed",
-    "comp-js": "uglifyjs js/main.min.js -o js/main.js",
+    "compress": "node-sass css/style.prefix.css css/style.css --output-style compressed",
+    "comp-js": "uglifyjs js/script.js -o js/main.js",
     "build-css": "npm-run-all watch compile prefix compress"
   },
-  "author": "",
+  "author": "khadija",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.26.7",
