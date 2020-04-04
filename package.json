@@ -1,16 +1,13 @@
 {
-  "name": "starter-file",
+  "name": "corona-projet",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch": "node-sass -w sass -o css",
-    "compile": "node-sass sass -o css",
-    "concat": "concat -o css/concat.css css/style.css css/navbar.css css/header.css css/symptomes.css css/Recommandations.css css/herofooter.css css/footer.css",
-    "prefix": "postcss css/concat.css --use=autoprefixer --map=false --output=css/style.prefix.css",
-    "compress": "node-sass css/style.prefix.css css/style.css --output-style compressed",
-    "comp-js": "uglifyjs js/script.js -o js/main.js",
-    "build-css": "npm-run-all watch compile prefix compress"
+    "watch": "node-sass -w --output-style compressed sass -o css",
+    "concat": "concat -o css/concat.css  css/navbar.css css/header.css css/but.css css/symptomes.css css/Recommandations.css css/herofooter.css css/footer.css",
+    "prefix": "postcss css/concat.css --use autoprefixer -d css/prefix.css",
+    "build-css": "npm run-all watch concat prefix"
   },
   "author": "khadija",
   "license": "ISC",
@@ -27,7 +24,11 @@
     "gulp-useref": "^4.0.1"
   },
   "dependencies": {
+    "autoprefixer": "^9.7.5",
     "bourbon": "^6.0.0",
-    "gulp-concat": "^2.6.1"
+    "concat": "^1.0.3",
+    "gulp-concat": "^2.6.1",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^7.1.0"
   }
 }

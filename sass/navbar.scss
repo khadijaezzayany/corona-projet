@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Cairo";
+    font-size: 16x;
+}
+
+.navbar {
+    width: 100%;
+
+    &__top {
+        background-image: url(/Design/Assets/png/bgtopbar.png);
+        background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-color:  #96C5DC;
+         &--logo{
+            margin: 0.5% auto auto 2%;
+        }
+     
+    }
+  
+    ul {
+        // width: 10%;
+        display: inline-flex;
+        list-style: none;
+        float: right;
+        margin-right: 16%;
+        margin-top: 2%;
+        margin-bottom: auto;
+    
+        
+        & li {
+            margin-right: 35%;
+    
+            & a {
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+                font-size: 25px;
+            }
+            #accueil{
+                color: #1A519E;
+            }
+        }
+    }
+   
+    &__bottom{
+        background: #F4CF1B;
+        &--h{
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        &--p{
+            color: #1078AD;
+            text-align: center;
+            font-weight: bold,
+        }
+    }
+}
