@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch": "node-sass -w --output-style compressed sass -o css",
+    "watch": "node-sass -w --output-Acceil compressed sass -o css",
     "concat": "concat -o css/concat.css  css/navbar.css css/header.css css/but.css css/symptomes.css css/Recommandations.css css/herofooter.css css/footer.css",
     "prefix": "postcss css/concat.css --use autoprefixer -d css/prefix.css",
     "build-css": "npm run-all watch concat prefix"
