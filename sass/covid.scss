@@ -1,13 +1,14 @@
 .covid{
+    margin: 0 100px 10px;
 
     &__h{
 
         color:  #1078AD;
-        line-height: 40px;
+        line-height: 45px;
         text-align: center;
         padding-top: 100px;
         padding-bottom: 50px;
-        font-size: 35px;
+        font-size: 40px;
     }
 
     &__sec{
@@ -16,7 +17,7 @@
             text-align: center;
             font-weight: bolder;
             color: #1A519E;
-            font-size: 20px;
+            font-size: 25px;
             margin: auto;
         }
         display: grid;
@@ -30,6 +31,9 @@
         &--2{
             grid-column: 2;
             margin: auto;
+            img{
+                height: 130px;
+            }
         }
     }
 }

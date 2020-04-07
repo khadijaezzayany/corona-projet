@@ -1,17 +1,18 @@
 @charset "UTF-8";
 .protéger img {
-  width: 100px;
-  height: 100px; }
+  width: 120px;
+  height: 120px; }
 
 .protéger__h {
-  color: #1078AD;
-  line-height: 40px;
+  font-size: 40px;
+  grid-column: 1/3;
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 50px;
-  font-size: 35px; }
+  color: #1078AD;
+  margin-top: 30px;
+  line-height: 45px; }
 
 .protéger__sec {
+  padding-right: 100px;
   display: grid;
   grid-template-columns: 35% 40% 35%;
   grid-template-rows: 1fr 1fr 1fr;
