@@ -1,1 +1,16 @@
-header{padding-top:60px;display:grid;grid-column:1fr 1fr;grid-template-areas:'header__img header__sec';text-align:center}header h1{color:#1078AD;line-height:45px}header p{color:#7F7F7F;font-size:30px;font-weight:bolder;line-height:45px}
+.header {
+  padding-top: 60px;
+  display: grid;
+  grid-column: 1fr 1fr;
+  grid-template-areas: 'header__img header__sec';
+  text-align: center; }
+  .header__img img {
+    width: 700px; }
+  .header__sec--h {
+    color: #1078AD;
+    line-height: 45px; }
+  .header__sec--p {
+    color: #7F7F7F;
+    font-size: 35px;
+    font-weight: bolder;
+    line-height: 50px; }

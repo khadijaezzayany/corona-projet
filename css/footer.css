@@ -1,1 +1,66 @@
-.footer{display:grid;grid-template-columns:20% 30% 50%;grid-template-rows:1fr 1fr}.footer__logo{grid-row:1/2;grid-column:1/4;margin:auto}.footer__sec1{grid-row:2;grid-column:1;margin:auto}.footer__sec1 ul{list-style:none;float:right;margin-right:16%;margin-top:2%;margin-bottom:auto}.footer__sec1 ul li{margin-right:35%}.footer__sec1 ul li a{text-decoration:none;color:black;font-weight:bold;font-size:25px}.footer__sec1 ul li #accueil{color:#1078AD}.footer__sec2{grid-row:2;grid-column:2;margin:auto;text-align:center;line-height:50px}.footer__sec2--h{color:#1078AD;font-weight:bolder;font-size:25px}.footer__sec2--p{font-weight:bold;font-size:20px}.footer__sec2--num{color:#369D53;font-weight:bolder;font-size:25px}.footer__sec3{grid-row:2;grid-column:3;margin:auto}.footer__sec3--p{color:#7F7F7F;font-size:20px}.footer__bottom{background-color:#1078AD;width:100vw;height:30px;border-top-left-radius:5px;border-top-right-radius:5px;margin-top:70px}
+.footer {
+  display: grid;
+  grid-template-columns: 20% 30% 50%;
+  grid-template-rows: 1fr 1fr; }
+  .footer__logo {
+    grid-row: 1/2;
+    grid-column: 1/4;
+    margin: auto; }
+  .footer__sec1 {
+    grid-row: 2;
+    grid-column: 1;
+    margin: auto; }
+    .footer__sec1 ul {
+      width: 10%;
+      list-style: none;
+      float: right;
+      margin-right: 16%;
+      margin-top: 2%;
+      margin-bottom: auto; }
+      .footer__sec1 ul li {
+        margin-right: 35%; }
+        .footer__sec1 ul li a {
+          text-decoration: none;
+          color: black;
+          font-weight: bold;
+          font-size: 20px;
+          line-height: 50px; }
+          .footer__sec1 ul li a img {
+            padding-left: 10px;
+            height: 45px; }
+        .footer__sec1 ul li a:hover {
+          color: #1a519e; }
+        .footer__sec1 ul li #accueil {
+          color: #1a519e;
+          font-weight: bold; }
+  .footer__sec2 {
+    grid-row: 2;
+    grid-column: 2;
+    margin: auto;
+    text-align: center;
+    line-height: 50px; }
+    .footer__sec2--h {
+      color: #1078AD;
+      font-weight: bolder;
+      font-size: 25px; }
+    .footer__sec2--p {
+      font-weight: bold;
+      font-size: 20px; }
+    .footer__sec2--num {
+      color: #369D53;
+      font-weight: bolder;
+      font-size: 25px; }
+  .footer__sec3 {
+    grid-row: 2;
+    grid-column: 3;
+    margin: auto; }
+    .footer__sec3--p {
+      color: #7F7F7F;
+      font-size: 20px; }
+  .footer__bottom {
+    background-color: #1078AD;
+    width: 1519px;
+    height: 30px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: 70px; }

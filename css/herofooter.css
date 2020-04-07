@@ -1,1 +1,31 @@
-.herofooter{background-color:#96c5dc;padding-bottom:20px;display:flex;flex-direction:column}.herofooter__h{padding-top:20px;color:#1078AD;text-align:center;font-size:35px}.herofooter__emoji{padding-top:20px;padding-bottom:20px;display:block;margin-left:auto;margin-right:auto}.herofooter__butt{width:30%;margin:auto;background-color:#1078AD;color:white;border:none;height:50px;width:600px;border-radius:4px;font-weight:bold;font-size:30px}
+.herofooter {
+  background-color: #96c5dc;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column; }
+  .herofooter__h {
+    padding-top: 20px;
+    color: #1078AD;
+    text-align: center;
+    font-size: 35px; }
+  .herofooter__emoji {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .herofooter__butt {
+    width: 30%;
+    margin: auto;
+    background-color: #1078AD;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 600px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 30px; }
+  .herofooter__butt:hover {
+    color: #1078AD;
+    background-color: white;
+    border: 2px solid #1078AD; }

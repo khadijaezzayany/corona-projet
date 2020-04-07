@@ -15,7 +15,7 @@
         margin: auto;
 
         ul {
-            // width: 10%;
+            width: 10%;
             // display: inline-flex;
             list-style: none;
             float: right;
@@ -23,21 +23,29 @@
             margin-top: 2%;
             margin-bottom: auto;
         
-            
             & li {
-                margin-right: 35%;
+              margin-right: 35%;
         
-                & a {
-                    text-decoration: none;
-                    color: black;
-                    font-weight: bold;
-                    font-size: 25px;
+              & a {
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+                font-size: 20px;
+                line-height: 50px;
+                img {
+                    padding-left: 10px;
+                    height: 45px;
                 }
-                #accueil{
-                    color: #1078AD;
-                }
+              }
+              a:hover {
+                color: #1a519e;
+              }
+              #accueil {
+                color: #1a519e;
+                font-weight: bold;
+              }
             }
-        }
+          }
     }
     &__sec2{
         grid-row: 2;
@@ -75,7 +83,7 @@
     }
     &__bottom{
         background-color: #1078AD;
-        width: 100vw;
+        width: 1519px;
         height: 30px;
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
