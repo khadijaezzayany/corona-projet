@@ -7,6 +7,10 @@
     "watch": "node-sass -w --output-Acceil compressed sass -o css",
     "concat": "concat -o css/concat.css  css/navbar.css css/header.css css/but.css css/symptomes.css css/Recommandations.css css/herofooter.css css/footer.css css css/info.cs",
     "prefix": "postcss css/concat.css --use autoprefixer -d css/prefix.css",
+    // // "toPrefixed": "postcss dist/css/style.css --use=autoprefixer --map=false --output=dist/css/style.css",  "browserslist": [
+    // //   "last 4 versions"
+    // ],
+  
     "build-css": "npm run-all watch concat prefix"
   },
   "author": "khadija",
