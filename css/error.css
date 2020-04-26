@@ -1,0 +1,7 @@
+.error {
+  text-align: center;
+  padding-top: 50px; }
+  .error__h {
+    color: #1078AD; }
+  .error__but {
+    width: 400px; }

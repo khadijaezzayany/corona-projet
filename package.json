@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "watch": "node-sass -w --output-Acceil compressed sass -o css",
-    "concat": "concat -o css/concat.css  css/navbar.css css/header.css css/but.css css/symptomes.css css/Recommandations.css css/herofooter.css css/footer.css css css/info.cs",
+    "concat": "concat -o css/concat.css  css/navbar.css css/header.css css/but.css css/symptomes.css css/Recommandations.css css/herofooter.css css/footer.css css css/info.css css/error.css ",
     "prefix": "postcss css/concat.css --use autoprefixer -d css/prefix.css",
     "build-css": "npm run-all watch concat prefix"
   },
@@ -23,7 +23,7 @@
     "gulp-series": "^1.0.2",
     "gulp-uglify": "^3.0.2",
     "gulp-useref": "^4.0.1"
-  },
+  }, 
   "dependencies": {
     "autoprefixer": "^9.7.5",
     "bourbon": "^6.0.0",

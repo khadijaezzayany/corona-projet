@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.but {
+button {
   background-color: #1078AD;
   color: white;
   border: none;
@@ -10,7 +10,7 @@
   font-weight: bold;
   font-size: 35px; }
 
-.but:hover {
+button:hover {
   color: #1078AD;
   background-color: white;
   border: 2px solid #1078AD; }
@@ -150,20 +150,7 @@ body {
     margin-left: auto;
     margin-right: auto; }
   .herofooter__butt {
-    width: 30%;
-    margin: auto;
-    background-color: #1078AD;
-    color: white;
-    border: none;
-    height: 50px;
-    width: 600px;
-    border-radius: 4px;
-    font-weight: bold;
-    font-size: 30px; }
-  .herofooter__butt:hover {
-    color: #1078AD;
-    background-color: white;
-    border: 2px solid #1078AD; }
+    margin: auto; }
 
 .header {
   padding-top: 60px;
@@ -404,3 +391,11 @@ body {
     grid-row: 3/4;
     grid-column: 2/3;
     margin: auto; }
+
+.error {
+  text-align: center;
+  padding-top: 50px; }
+  .error__h {
+    color: #1078AD; }
+  .error__but {
+    width: 400px; }
