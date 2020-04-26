@@ -1,0 +1,32 @@
+.préambule {
+	width: 70%;
+    text-align: center;
+    margin: 50px auto;
+    background-color: #e9ecef;
+    padding: 50px 33px;
+    border-radius: 5px;
+
+	&__butpr {
+        width: 250px;
+        font-size: 25px;
+        margin: auto 630px;
+    }
+    &__p{
+        font-size: 17px;
+        margin:  20px auto;
+        width: 85%;
+    }
+    &__p2{
+        width: 70%;
+        margin: 20px auto;
+    }
+    &__h{
+        color: #1078AD;
+        font-size: 25px;
+    }
+    hr{
+        width: 50%;
+        margin: auto;
+        border: 1px solid #F4CF1B;
+    }
+}
