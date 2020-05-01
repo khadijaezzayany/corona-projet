@@ -1,106 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/préambule.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Testing for COVID-19</title>
+  <link rel="shortcut icon" href="img/logo__sante-des.svg" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
 </head>
+
 <body>
-            <!------------------------------------- Navbar  ------------------------------------->
-<section class="navbar">
+  <!------------------------------------- Navbar  ------------------------------------->
+  <section class="navbar">
     <div class="navbar__top">
-        <img
-          src="img/logo__sante-des.svg"
-          alt="logo"
-          class="navbar__top--logo"
-        />
+      <img src="img/logo__sante-des.svg" alt="logo" class="navbar__top--logo" />
 
-        <ul>
-          <li><a href="#">Conseil</a></li>
-          <li><a id="accueil" href="#">Accueil</a></li>
-          <li>
-            <a href="#"><img src="img/morocco.png" alt="language" /></a>
-          </li>
-        </ul>
+      <ul>
+        <li><a href="#">Conseil</a></li>
+        <li><a id="accueil" href="#">Accueil</a></li>
+        <li>
+          <a href="#"><img src="img/morocco.png" alt="language" /></a>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-------------------------------------Fin Navbar  ------------------------------------->
+  <!-------------------------------------   stepper  ------------------------------------->
+  <section class="stepper">
+    <h1 class="stepper__h select"> Informations</h1>
+    <h1 class="stepper__h"> Questionnaire</h1>
+    <h1 class="stepper__h"> Résultats</h1>
+  </section>
+
+
+  <!-------------------------------------Fin stepper  ------------------------------------->
+  <!------------------------------------- Préambule ------------------------------------->
+  <section class="préambule">
+    <h1 class="préambule__h">Préambule</h1>
+    <p class="préambule__p">L’application est fournie à titre gratuit, en l’état, uniquement à des fins d’information
+      pour contribuer à fluidifier la prise en charge des personnes par les services d’urgences pendant l’épidémie de
+      Coronavirus COVID-19. L’exhaustivité, l’exactitude, le caractère à jour des informations et contenus mis à
+      disposition dans cette application, ou leur adéquation à des finalités particulières, ne sont pas garantis.
+    </p>
+    <hr>
+    <p class="préambule__p2">Cette application ne substitue pas votre médecin qui est plus apte à vous donner plus de
+      précision.
+      Les informations de cette application est le premier niveau de la détection des cas possibles du COVID-19.
+    </p>
+  </section>
+
+  <button class="préambule__But" id="startBut">Demarer le test</button>
+  <!-------------------------------------Fin Préambule  ------------------------------------->
+
+  <!-------------------------------------Questionnaire  ------------------------------------->
+
+  <section class="questionnaire hide">
+
+    <div class="questionnaire__progress">
+      <h3><span class="questionnaire__number">1</span>/22</h3>
+      <div class="questionnaire__bar">
+        <div class="bar"></div>
       </div>
-    </section>
-        <!-------------------------------------Fin Navbar  ------------------------------------->
-         <!------------------------------------- Préambule ------------------------------------->
-         <section class="préambule">
-           <h1 class="préambule__h">Préambule</h1>
-           <p class="préambule__p">L’application est fournie à titre gratuit, en l’état, uniquement à des fins d’information pour contribuer à fluidifier la prise en charge des personnes par les services d’urgences pendant l’épidémie de Coronavirus COVID-19. L’exhaustivité, l’exactitude, le caractère à jour des informations et contenus mis à disposition dans cette application, ou leur adéquation à des finalités particulières, ne sont pas garantis.
-          </p>
-             <hr>
-           <p class="préambule__p2">Cette application ne substitue pas votre médecin qui est plus apte à vous donner plus de précision.
-             Les informations de cette application est le premier niveau de la détection des cas possibles du COVID-19.
-           </p>
-         </section>
+    </div>
 
-    <button class="préambule__butpr">Demarer le test</button>
-     <!-------------------------------------Fin Préambule  ------------------------------------->
-        <!-------------------------------------Section Recommandations  ------------------------------------->
+    <div class="action">
+      <h1 class="action__question">Pensez-vous avoir ou avoir eu de la fièvre ces 10 derniers jours (frissons, sueurs) ?
+      </h1>
 
-        <div class="Recommandations">
-            <h2 class="Recommandations__h">Recommandations officielles</h2>
-      
-            <div class="Recommandations__right">
-              <p class="Recommandations__right--p">
-                Si vous pensez être malade,<br />
-                <span>
-                  évitez les endroits publics. <br />
-                  Ne rendez pas visite aux personnes fragiles. <br />
-                  Évitez de sortir de chez vous. <br />
-                  Respectez les mesures barrière (lavage de main, masque). <br />
-                  Surveillez vos symptômes, l’évolution de votre température <br />
-                  corporelle et recherchez un avis médical.
-                </span>
-              </p>
-            </div>
-      
-            <div class="Recommandations__left">
-              <h3 class="Recommandations__left--h">Apple Gratuit</h3>
-              <button class="Recommandations__left--but">080 100 47 47</button>
-              <a class="Recommandations__left--link" href="#">www.sante.gov.ma</a>
-            </div>
-          </div>
-          <!------------------------------------- Fin Recommandations------------------------------------->
-        <!------------------------------------ Footer----------------------------------->
-        <div class="footer">
-            <img class="footer__logo" src="img/logo__sante-des.svg" alt="logo" />
-      
-            <div class="footer__sec1">
-              <ul>
-                <li>
-                  <a href="#"><img src="img/france.png" alt="language" /></a>
-                </li>
-                <li><a id="accueil" href="#">Accueil</a></li>
-                <li><a href="#">Conseil</a></li>
-              </ul>
-            </div>
-      
-            <div class="footer__sec2">
-              <h3 class="footer__sec2--h">Contacts utiles</h3>
-              <p class="footer__sec2--p">
-                Chiffre économique "Alo épidémie vigilance"
-              </p>
-              <p class="footer__sec2--num">080 100 47 47</p>
-              <p class="footer__sec2--p">Aide médicale urgente</p>
-              <p class="footer__sec2--num">114</p>
-            </div>
-      
-            <div class="footer__sec3">
-              <p class="footer__sec3--p">
-                Algorithme d'orientation mis à jour sur les recommandations en
-                vigueur<br />au 22/03/2020 à 16h15. Ce site d’information n’est pas un
-                dispositif médical,<br />il ne délivre pas d’avis médical. Projet
-                solidaire d'urgence,financé par l’Alliance<br />Digitale contre le
-                COVID-19 : @maladiecovid19
-              </p>
-            </div>
-            <div class="footer__bottom"></div>
-          </div>
-          <!-------------------------------------  Fin Footer  ------------------------------------->
+      <div class="action__réponse"></div>
+
+      <div class="action__but">
+        <button id="but" class="précédent">Précédent</button>
+        <button id="but" class="suivent">Suivent</button>
+      </div>
+    </div>
+  </section>
+
+
+  <!-------------------------------------Fin Questionnaire  ------------------------------------->
+
+  <!-------------------------------------Section Recommandations  ------------------------------------->
+
+  <div class="Recommandations">
+    <h2 class="Recommandations__h">Recommandations officielles</h2>
+
+    <div class="Recommandations__right">
+      <p class="Recommandations__right--p">
+        Si vous pensez être malade,<br />
+        <span>
+          évitez les endroits publics. <br />
+          Ne rendez pas visite aux personnes fragiles. <br />
+          Évitez de sortir de chez vous. <br />
+          Respectez les mesures barrière (lavage de main, masque). <br />
+          Surveillez vos symptômes, l’évolution de votre température <br />
+          corporelle et recherchez un avis médical.
+        </span>
+      </p>
+    </div>
+
+    <div class="Recommandations__left">
+      <h3 class="Recommandations__left--h">Apple Gratuit</h3>
+      <button class="Recommandations__left--but">080 100 47 47</button>
+      <a class="Recommandations__left--link" href="#">www.sante.gov.ma</a>
+    </div>
+  </div>
+  <!------------------------------------- Fin Recommandations------------------------------------->
+  <!------------------------------------ Footer----------------------------------->
+  <div class="footer">
+    <img class="footer__logo" src="img/logo__sante-des.svg" alt="logo" />
+
+    <div class="footer__sec1">
+      <ul>
+        <li>
+          <a href="#"><img src="img/france.png" alt="language" /></a>
+        </li>
+        <li><a id="accueil" href="#">Accueil</a></li>
+        <li><a href="#">Conseil</a></li>
+      </ul>
+    </div>
+
+    <div class="footer__sec2">
+      <h3 class="footer__sec2--h">Contacts utiles</h3>
+      <p class="footer__sec2--p">
+        Chiffre économique "Alo épidémie vigilance"
+      </p>
+      <p class="footer__sec2--num">080 100 47 47</p>
+      <p class="footer__sec2--p">Aide médicale urgente</p>
+      <p class="footer__sec2--num">114</p>
+    </div>
+
+    <div class="footer__sec3">
+      <p class="footer__sec3--p">
+        Algorithme d'orientation mis à jour sur les recommandations en
+        vigueur<br />au 22/03/2020 à 16h15. Ce site d’information n’est pas un
+        dispositif médical,<br />il ne délivre pas d’avis médical. Projet
+        solidaire d'urgence,financé par l’Alliance<br />Digitale contre le
+        COVID-19 : @maladiecovid19
+      </p>
+    </div>
+    <div class="footer__bottom"></div>
+  </div>
+  <!-------------------------------------  Fin Footer  ------------------------------------->
+
+  <!-- <script src="js/script.js"></script> -->
 </body>
+
 </html>

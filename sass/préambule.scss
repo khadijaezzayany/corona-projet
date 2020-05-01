@@ -1,32 +1,41 @@
 .préambule {
-	width: 70%;
+    width: 70%;
     text-align: center;
     margin: 50px auto;
     background-color: #e9ecef;
     padding: 50px 33px;
     border-radius: 5px;
 
-	&__butpr {
+    &__But {
         width: 250px;
         font-size: 25px;
-        margin: auto 630px;
+        display: flex;
+        justify-content: center;
+        margin: auto;
     }
-    &__p{
-        font-size: 17px;
-        margin:  20px auto;
+
+    &__p {
+        margin: 20px auto;
         width: 85%;
+        line-height: 30px;
+
     }
-    &__p2{
+
+    &__p2 {
         width: 70%;
         margin: 20px auto;
+        line-height: 30px;
+
     }
-    &__h{
+
+    &__h {
         color: #1078AD;
         font-size: 25px;
     }
-    hr{
+
+    hr {
         width: 50%;
         margin: auto;
-        border: 1px solid #F4CF1B;
+        border: 1.5px solid #F4CF1B;
     }
 }

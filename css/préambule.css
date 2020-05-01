@@ -6,21 +6,24 @@
   background-color: #e9ecef;
   padding: 50px 33px;
   border-radius: 5px; }
-  .préambule__butpr {
+  .préambule__But {
     width: 250px;
     font-size: 25px;
-    margin: auto 630px; }
+    display: flex;
+    justify-content: center;
+    margin: auto; }
   .préambule__p {
-    font-size: 17px;
     margin: 20px auto;
-    width: 85%; }
+    width: 85%;
+    line-height: 30px; }
   .préambule__p2 {
     width: 70%;
-    margin: 20px auto; }
+    margin: 20px auto;
+    line-height: 30px; }
   .préambule__h {
     color: #1078AD;
     font-size: 25px; }
   .préambule hr {
     width: 50%;
     margin: auto;
-    border: 1px solid #F4CF1B; }
+    border: 1.5px solid #F4CF1B; }

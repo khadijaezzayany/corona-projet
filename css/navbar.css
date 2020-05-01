@@ -3,7 +3,7 @@
   padding: 0; }
 
 body {
-  font-family: "Cairo";
+  font-family: 'Cairo', sans-serif;
   font-size: 16x; }
 
 .navbar {
@@ -24,7 +24,7 @@ body {
     margin-top: 2%;
     margin-bottom: auto; }
     .navbar ul li {
-      margin-right: 35%; }
+      margin-right: 30%; }
       .navbar ul li a {
         text-decoration: none;
         color: black;
@@ -39,12 +39,15 @@ body {
         color: #1a519e;
         font-weight: bold; }
   .navbar__bottom {
-    background: #f4cf1b; }
+    background: #f4cf1b;
+    padding: 10px; }
     .navbar__bottom--h {
       text-align: center;
       text-transform: uppercase;
-      font-weight: bold; }
+      font-weight: bold;
+      padding-top: 5px; }
     .navbar__bottom--p {
       color: #1078ad;
       text-align: center;
-      font-weight: bold; }
+      font-weight: bold;
+      line-height: 20px; }

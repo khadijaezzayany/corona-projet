@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "watch": "node-sass -w --output-Acceil compressed sass -o css",
-    "concat": "concat -o css/concat.css  css/navbar.css css/header.css css/but.css css/symptomes.css css/Recommandations.css css/herofooter.css css/footer.css css css/info.css css/error.css css/préambule.css ",
+    "concat": "concat -o css/concat.css  css/navbar.css css/header.css css/but.css css/symptomes.css css/Recommandations.css css/herofooter.css css/footer.css css css/info.css css/error.css css/stepper.css css/préambule.css css/questionnnaire.css ",
     "prefix": "postcss css/concat.css --use autoprefixer -d css/prefix.css",
     "build-css": "npm run-all watch concat prefix"
   },
