@@ -61,9 +61,10 @@
         justify-content: center;
 
         input[type="number"] {
+            font-size: 16px;
             border: 1px solid #1078AD;
             width: 80%;
-            padding: 10px;
+            padding: 14px;
         }
 
         .input-span {
@@ -73,7 +74,7 @@
             padding: 4px 10px 13px;
             color: #555555;
             background-color: #edf6fa;
-        
+
         }
 
         input[type="radio"] {
@@ -104,6 +105,7 @@
             span {
                 font-size: 16px;
                 font-weight: 900;
+                text-align: center;
             }
         }
     }
@@ -143,14 +145,15 @@
             opacity: .60;
 
             &:hover {
-                background-color: #cfe4ef ;
-                color: #1078ad ;
+                background-color: #cfe4ef;
+                color: #1078ad;
             }
 
         }
     }
 
 }
+
 .hide {
     opacity: 0;
     pointer-events: none;

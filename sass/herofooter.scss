@@ -5,21 +5,22 @@
     display: flex;
     flex-direction: column;
 
-        &__h {
-            padding-top: 20px;
-            color: #1078AD;
-            text-align: center;
-            font-size: 35px;
-}
-        &__emoji {
-            padding-top: 20px;
-            padding-bottom: 20px;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-  }
+    &__h {
+        padding-top: 20px;
+        color: #1078AD;
+        text-align: center;
+        font-size: 35px;
+    }
 
-        &__butt{
-            margin: auto;
-        }
+    &__emoji {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+a{
+        margin: auto;
+    }
 }
