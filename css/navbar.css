@@ -14,7 +14,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover; }
     .navbar__top--logo {
-      margin: 0.5% auto auto 2%; }
+      margin: 20px; }
   .navbar ul {
     width: 10%;
     display: inline-flex;
